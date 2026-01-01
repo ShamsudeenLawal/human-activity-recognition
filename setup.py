@@ -22,7 +22,7 @@ setup(
     description='A package for human activity recognition using machine learning.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/my_package',
+    # url='https://github.com/yourusername/my_package',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
