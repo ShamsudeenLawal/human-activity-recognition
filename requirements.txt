@@ -1,2 +1,13 @@
-ipykernel
+ipykernel==6.28.0
+pydot==4.0.1
+tensorflow==2.17.0
+opencv-python==4.11.0.86
+moviepy==2.2.1
+matplotlib==3.9.2
+scikit-learn==1.5.1
+pytube2==15.0.17
+# numpy==1.26.4
+# cvlib==0.2.7
+pytest==7.4.4
+# fastapi==0.128.0
 -e .
