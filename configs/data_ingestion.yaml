@@ -1,9 +1,0 @@
-dataset_dir:
-classes_list:
-  - WalkingWithDog
-  - TaiChi
-  - Swing
-  - HorseRace
-num_files: none
-sequence_length: 20
-seed: 42

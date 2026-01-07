@@ -6,8 +6,6 @@ moviepy==2.2.1
 matplotlib==3.9.2
 scikit-learn==1.5.1
 pytube2==15.0.17
-# numpy==1.26.4
-# cvlib==0.2.7
-pytest==7.4.4
-# fastapi==0.128.0
+scikit-learn
+pyyaml
 -e .

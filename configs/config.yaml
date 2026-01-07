@@ -1,0 +1,41 @@
+# data ingestion configurations
+data_ingestion:
+  dataset_dir: "data/UCF50"
+  processed_data_directory: "data/preprocessed/"
+  classes_list:
+    - "WalkingWithDog"
+    - "TaiChi"
+    - "Swing"
+    - "HorseRace"
+  num_files: null
+  test_size: 0.25
+  sequence_length: 20
+  seed: 42
+  input_size:
+    image_height: 64
+    image_width: 64
+    channels: 3
+
+
+
+# model training configurations
+train:
+  filters: 16
+  kernel_size: 3
+  padding: "same"
+  activation: "relu"
+  pool_size: 4
+  rate: 0.25
+  units: 64
+  loss: "sparse_categorical_crossentropy"
+  optimizer: "adam"
+  metrics:
+    - "accuracy"
+  epochs: 2
+  batch_size: 4
+  validation_split: 0.1
+  verbose: 2
+  shuffle: true
+  early_stopping: true
+  patience: 15
+  model_dir: "models"
